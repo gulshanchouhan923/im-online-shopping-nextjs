@@ -1,0 +1,153 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+/* offer section */
+
+.offer-section-details-div{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+
+.offer-section-details-div>p{
+    color: white;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+/* main container style */
+.nav-bar-main-container{
+    margin: 0px 0px;
+    padding: 0px 40px;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+/* row style */
+
+.nav-bar-row-section{
+    display: flex;
+    align-items: center;
+}
+
+
+/* first col css */
+
+
+.first-row-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-row-logo-container>div>img{
+   height: 100%;
+   width: 100%;
+   transform: rotate(-10deg)
+}
+
+.first-row-logo-container>div{
+    height: 60px;
+    width: 100px;
+    margin-top: 10px;
+
+}
+
+
+
+
+ /* second col css */
+.second-row-container{
+    display: flex;
+}
+
+.second-row-container-main-icon>svg{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* .second-row-container>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.second-row-container>ul>li{
+    margin: 0px 10px;
+} */
+   
+ 
+
+
+
+/* third col css */
+.nav-bar-third-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar-search-section{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  border: 2px solid white;
+  box-shadow: 1px 1px 1px 1px grey;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.nav-bar-search-icon-div{
+    margin: 0px 5px;
+}
+
+.nav-bar-search-icon-div>svg{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.nav-bar-search-section>div>input{
+ outline: none;
+ border: none;
+ color: black;
+ font-size: 15px;
+ font-weight: 500;
+ padding: 0px 5px;
+ margin: 5px 0px;
+ width: 80%;
+}
+
+
+/* cart icons css */
+
+.nav-bar-cart-icons-div>svg{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* heart icons css */
+
+.nav-bar-heart-icons-div>svg{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
