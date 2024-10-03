@@ -1,0 +1,45 @@
+.top-catogery-main-container{
+    margin: 60px;
+}
+
+
+.top-catogery-main-heading-div{
+    margin: 20px 0px;
+}
+
+
+.top-catogery-heading>h5{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+
+/* catogery container */
+
+
+.top-catogery-product-main-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+
+/* image */
+
+.top-catogery-product-image-div{
+    margin: 10px 0px;
+}
+
+.top-catogery-product-image-div>div{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.top-catogery-product-image-div>div>img{
+    height: 100%;
+    width: 100%;
+}
